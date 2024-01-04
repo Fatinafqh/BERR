@@ -1,9 +1,9 @@
 const express = require('express')
 const bcrypt = require('bcrypt');
 const mongoose = require('mongoose')
-const User = require('./mongodb_models/user_schema')
-const Visitor = require('./mongodb_models/visitor_schema')
-const Pass = require('./mongodb_models/visitor_pass_schema')
+//const User = require('./mongodb_models/user_schema')
+//const Visitor = require('./mongodb_models/visitor_schema')
+//const Pass = require('./mongodb_models/visitor_pass_schema')
 const jwt = require('jsonwebtoken')
 const app = express()
 const swaggerJsdoc = require('swagger-jsdoc');
@@ -20,7 +20,7 @@ const options = {
     definition: {
       openapi: '3.0.0',
       info: {
-        title: ' BENR3433 INFORMATION SECURITY assignment',
+        title: 'Assignment BENR3433 ',
         version: '1.0.0',
       },
       tags:[
